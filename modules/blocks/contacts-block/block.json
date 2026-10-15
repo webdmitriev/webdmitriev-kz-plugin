@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "webdmitriev/contacts",
+  "title": "Блок контактов",
+  "category": "webdmitriev-kz",
+  "icon": "location-alt",
+  "description": "Вывод контактов",
+  "attributes": {
+    "title": { "type": "string", "default": "Наши адреса" },
+    "title_kz": { "type": "string", "default": "Біздің мекенжайларымыз" },
+    "kz": { "type": "string", "default": "RU" }
+  },
+  "textdomain": "webdmitriev-kz",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:../../../build/editor.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

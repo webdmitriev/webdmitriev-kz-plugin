@@ -1,0 +1,16 @@
+{
+  "name": "webdmitriev-kz-blocks",
+  "version": "1.0.0",
+  "description": "Gutenberg blocks for webdmitriev.kz",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "overrides": {
+    "ajv": "^8.12.0"
+  }
+}

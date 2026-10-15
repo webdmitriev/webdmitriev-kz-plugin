@@ -1,0 +1,18 @@
+@use "./backend/reset";
+
+.data-block {
+  font-family: "Manrope", sans-serif;
+}
+
+.wd-contacts-editor {
+  padding: 14px;
+  background-color: rgba(0, 124, 186, .05);
+  border: 1px dashed #222;
+  border-radius: 6px;
+}
+
+.wd-contacts-editor__title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #007cba;
+}

@@ -1,0 +1,1 @@
+import '../modules/blocks/contacts-block/index.jsx';

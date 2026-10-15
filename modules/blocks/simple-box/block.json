@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "webdmitriev/simple-box",
+  "title": "Простой блок-бокс",
+  "category": "webdmitriev-kz",
+  "icon": "smiley",
+  "description": "Первый кастомный блок в отдельной папке.",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Привет из изолированной папки блока!"
+    }
+  },
+  "textdomain": "webdmitriev-kz",
+  "editorScript": "file:../../../build/index.js"
+}
